@@ -148,7 +148,13 @@ section.resume-section .resume-item .resume-date {
   }
 }
 .bg-primary {
-  background-color: #29648a !important;
+  background: rgb(41, 100, 138);
+  background: linear-gradient(
+    180deg,
+    rgba(41, 100, 138, 1) 0%,
+    rgba(44, 136, 180, 1) 86%,
+    rgba(46, 156, 202, 1) 100%
+  );
 }
 .text-primary {
   color: #29648a !important;
@@ -160,4 +166,12 @@ a:active,
 a:focus,
 a:hover {
   color: #2e9cca;
+}
+
+.btn-outline-light {
+  color: #9bbfd4;
+  border-color: #9abed3;
+  font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
 }

@@ -148,7 +148,13 @@ section.resume-section .resume-item .resume-date {
   }
 }
 .bg-primary {
-  background-color: #29648a !important;
+  background: rgb(41, 100, 138);
+  background: linear-gradient(
+    180deg,
+    rgba(41, 100, 138, 1) 0%,
+    rgba(44, 136, 180, 1) 86%,
+    rgba(46, 156, 202, 1) 100%
+  );
 }
 .text-primary {
   color: #29648a !important;

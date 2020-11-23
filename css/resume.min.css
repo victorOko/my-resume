@@ -35,11 +35,11 @@ h1 {
   line-height: 5.5rem;
 }
 h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 p.lead {
   font-size: 1.15rem;
@@ -52,7 +52,7 @@ p.lead {
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .social-icons a {
   display: inline-block;
@@ -167,5 +167,3 @@ a:focus,
 a:hover {
   color: #2e9cca;
 }
-
-
